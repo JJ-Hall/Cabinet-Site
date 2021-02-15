@@ -4,17 +4,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-$(function(){
-	$(window).on('load', function(){
-	  $('[data-src]').each(function(){
-		var $this = $(this),
-			src = $(this).data('src');
-		$this.attr('src', src);
-		console.log(src);
-	  });
-	});
-  });
-
 (function($) {
 
 	var	$window = $(window),
